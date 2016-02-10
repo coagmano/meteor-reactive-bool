@@ -1,4 +1,4 @@
-class ReactiveBool extends ReactiveVar {
+ReactiveBool = class ReactiveBool extends ReactiveVar {
     constructor(initialValue) {
         initialValue = !!initialValue;
         super(initialValue);
