@@ -1,3 +1,5 @@
+Forked from ephemer:reactive-bool with changes to support import syntax
+
 ReactiveBool
 ------------
 
@@ -6,6 +8,8 @@ This package extends Meteor's inbuilt ReactiveVar with guarantees of always cont
 ## Usage
 
 ```js
+import { ReactiveBool } from 'meteor/coagmano:reactive-bool';
+
 let bool = new ReactiveBool(true);
 bool.get(); // -> true
 
