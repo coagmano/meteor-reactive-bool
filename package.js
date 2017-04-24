@@ -1,6 +1,6 @@
 Package.describe({
     name: 'coagmano:reactive-bool',
-    version: '1.0.0',
+    version: '1.0.1',
     summary: 'Create a ReactiveBool type to show your intentions, includes a `toggle` method.',
     git: 'https://github.com/coagmano/meteor-reactive-bool'
 });

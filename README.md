@@ -5,6 +5,12 @@ ReactiveBool
 
 This package extends Meteor's inbuilt ReactiveVar with guarantees of always containing a Boolean type (`true` or `false`), allowing you to express your intentions more clearly in code. It also provides a reactive 'toggle' method.
 
+## Installation
+To install run
+```
+meteor add coagmano:reactive-bool
+```
+
 ## Usage
 
 ```js
