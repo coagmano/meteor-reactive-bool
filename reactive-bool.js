@@ -1,4 +1,4 @@
-ReactiveBool = class ReactiveBool extends ReactiveVar {
+export const ReactiveBool = class ReactiveBool extends ReactiveVar {
     constructor(initialValue) {
         initialValue = !!initialValue;
         super(initialValue);
@@ -13,4 +13,4 @@ ReactiveBool = class ReactiveBool extends ReactiveVar {
         super.set(newValue);
         return newValue;
     }
-}
+};
